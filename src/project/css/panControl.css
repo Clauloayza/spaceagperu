@@ -1,0 +1,31 @@
+.ui-zoombar {
+  background: #FFF;
+  position: relative;
+  text-align: center;
+/*  top: 93px;
+  left: 28px;*/
+  width: 28px;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.ui-zoombar:hover {
+  background-color: #f8f8f8;
+}
+.ui-zoombar .handle {
+  position: absolute;
+  cursor: pointer;
+  width: 26px;
+  height: 28px;
+  background: #404040;
+  color: #fff;
+  border-radius: 2px;
+}
+.ui-zoombar .handle:hover {
+  background: #303030;
+}
+.mapboxgl-ctrl-top-right {
+  top: 0 !important;
+  right: 25px !important;
+}

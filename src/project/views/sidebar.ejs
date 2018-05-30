@@ -1,0 +1,101 @@
+<div class="sidebar">
+     <nav class="sidebar-nav">
+            
+        <ul class="nav" id="maplayerList">
+            <!--<li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="fa fa-tachometer"></i> Dashboard <span class="badge badge-primary">NEW</span></a>
+            </li>-->
+            <span action="" class="clearable">
+                <i class="fa fa-search"></i> 
+                <input type="text" id="miBusqueda" name="" value="" placeholder="Buscar variable">
+                <i class="clearable__clear">&times;</i>
+            </span>
+            <p class="nav-item sidebar-concept">
+                <a class="nav-link" href="index.html"><i class="fa fa-home" style="font-size: 18px;"></i> Vista General</a>
+            </p>
+            <ul class="menu nav-title" >
+                <ol id="menu-icon"><i class="fa fa-clipboard" style="font-size: 18px;"></i> Variables<i class="fa fa-caret-down pull-right" style="color: #036920"></i></ol>
+                <ol id="categoriesMenu">
+                    <li style="display: none"></li>
+                    
+                </ol>
+            </ul>
+            <ul class="cartografia nav-title">
+                <ol class="cartografia-vector">
+                <li class="layers selec-layer" id="cartografia-link">
+                    <i class="fa fa-th-large"></i> Cartografía<i class="fa fa-caret-down pull-right" style="color: #036920"></i>
+                </li>
+                <ol>
+                    <li style="display: none"></li>
+                    <li class="breadcrumb-menu d-md-down-none dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lote</a>
+                        <div class="dropdown-menu" id="">
+                        </div>
+                    </li>
+                    <li class="breadcrumb-menu d-md-down-none dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vàlvulas</a>
+                        <div class="dropdown-menu" id="">
+                        </div>
+                    </li>
+                    <li class="breadcrumb-menu d-md-down-none dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Parcelas</a>
+                        <div class="dropdown-menu" id="">
+                        </div>
+                    </li>
+                    <li class="breadcrumb-menu d-md-down-none dropdown ">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vectores</a>
+                        <div class="dropdown-menu vectorLoading" id="">
+                        </div>
+                    </li>
+                </ol>
+                
+                <li class="nav-item vectorLoading">
+                    <a href="#" data-toggle="modal" data-target="#displayModalToCreateMaplayerVector" class="nav-link"><i class="fa fa-plus"></i>Subir Lote<span class="badge badge-primary"></span></a>
+                </li>
+            </ol>
+            </ul>
+            <ul class="group nav-title">
+                <ol class="cartografia-vector">
+                    <li class="" id="group-lotes">
+                        <i class="fa fa-object-ungroup"></i> Grupos<i class="fa fa-caret-down pull-right" style="color: #036920"></i>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="grouplotes.html"><i class="fa fa-object-group" style="color: #036920"></i> Lotes/Grupos</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <div class="tab-pane active" id="grouplotesTab" role="tabpanel">
+                            <div id="groupLotes"></div>
+                        </div>
+                    </li>
+                    
+                </ol>
+            </ul>
+            <ul class="nav-title">
+                <ol class="excel">
+                    <li class="" id="excel-variable">
+                        <i class="fa fa-table"></i> Cargar Excel<i class="fa fa-caret-down pull-right" style="color: #036920"></i>
+                    </li>
+                    <li class="nav-item">
+                        <a id="listVariablesForChangeset" href="#" data-toggle="modal" data-target="#displayModalToCreateChangeset" class="nav-link">
+                            <i class="fa fa-table"></i>Cargar Excel
+                        </a>
+                    </li>
+                </ol> 
+            </ul>
+            
+            <li class="nav-item">
+                    <a href="#" data-toggle="modal" data-target="#displayModalToRemoveMaplayer" id="listMaplayerToRemove" class="nav-link"><i class="fa fa-trash"></i>Delete layer<span class="badge badge-primary"></span></a>
+            </li>
+        </ul>
+        
+    </nav>
+   
+    <button class="sidebar-minimizer brand-minimizer" type="button">
+            <div style="color:#6f6f77; text-align:center;">
+                    <div style="color: #6f6f77">Coordenadas</div>
+                    <spam id="latitude">-</spam> ;
+                    <spam id="longitud">-</spam>
+                </div>      
+    </button>
+</div>

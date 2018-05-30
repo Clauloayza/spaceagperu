@@ -1,0 +1,412 @@
+/*the map id was attach to the main class*/
+
+/*#map { position:absolute; top:0; bottom:0; width:100%;  }*/
+span.vs{
+	margin: 0 15px;
+	text-transform: uppercase;
+}
+li.breadcrumb-item a{
+	color: #828282;
+}
+ol.breadcrumb li.breadcrumb-item{
+	font-size: 13px;
+}
+button#dropdownMenu1.btn.btn-default.dropdown-toggle{
+    color: #036920;
+    padding: 4px 20px;
+    border-radius: 6px;
+}
+li.breadcrumb-item a:hover{
+	color: #fff;
+}
+li.dropdown.maplayer.imagesRaster{
+    margin-left: 61%;
+    margin-top: -6px;
+}
+form.search-var{
+    padding: 5% 12%;
+}
+input#miBusqueda{
+    border-color: transparent;
+    padding: 3px 0;
+    border-radius: 6px;
+    width: 86%;
+    margin-left: 6%;
+    margin-right: -7%;
+}
+.nav-item a.selectGroupLotes{
+    font-size: 12px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+}
+a.nav-link.mlayer{
+    text-align: center;
+}
+.nav-item a.selectGroupLotes:hover{
+    font-size: 12px;
+    margin-bottom: 1px;
+    background: #e6e6e6;
+    color: #036920;
+}
+/*CLEAR*/
+.clearable{
+    position: relative;
+    display: inline-block;
+    margin: 5px 10px 15px;
+  }
+  .clearable input[type=text]{
+    padding-right: 24px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .clearable__clear{
+    display: none;
+    position: absolute;
+    right:0; top:0;
+    padding: 0 8px;
+    font-style: normal;
+    font-size: 1.2em;
+    user-select: none;
+    cursor: pointer;
+  }
+  .clearable input::-ms-clear {  /* Remove IE default X */
+    display: none;
+  }
+/*CLEAR*/  
+i.fa.fa-angle-right{
+    margin-right: 10%;
+}
+i.fa.fa-table{
+    margin-right: 15px;
+}
+
+i.fa.fa-caret-down.pull-right{
+    margin-right: 8%;
+}
+a.nav-link.mlayer{
+    color: #828282;
+    font-size: 13px;
+}
+a.nav-link.mlayer:active{
+    color: #036920;
+    background: #e6e6e6; 
+    font-size: 13px;
+}
+a.nav-link{
+    color: #828282;
+}
+a.nav-link.mlayer:hover{
+    color: #69af22;
+}
+.barra{
+    background: #ccc;
+    height: 700px;
+    width: 10px;
+}
+#menu-icon i.fa.fa-caret-down.pull-right{
+    margin-right: 10%;
+}
+ul.nav-title.update-lote{
+    background: #fff;
+}
+.breadcrumb {
+    margin-bottom: 0;    /*background-color: rgba(0, 0, 0, 0.8);*/
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+}
+a.nav-link.img:hover{
+    background: #e6e6e6;
+}
+a.nav-link.img:active{
+    background: #e6e6e6;
+    color:#036920;
+    font-weight: bold;
+}
+
+.menu {
+    color: #eee;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .menu li:not(:first-child ){
+    display: none;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    
+  }
+ 
+  #menu-icon {
+    cursor: pointer;
+    text-transform: initial;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: -9px;
+    padding-top: 6px;
+  }
+  /*CARTOGRAFIA*/
+  .cartografia {
+    color: #eee;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .cartografia li:not(:first-child ){
+    display: none;
+    padding-top: 7px;
+  }
+  
+  .cartografia li a {
+    text-decoration: none;
+    
+  }
+ 
+  #cartografia-link {
+    cursor: pointer;
+    text-transform: initial;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: -50px;
+    padding-top: 6px;
+  }
+/*group*/
+.group{
+    color: #eee;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .group li:not(:first-child ){
+    display: none;
+  }
+  
+  .group li a {
+    text-decoration: none;
+    
+  }
+ 
+  #group-lotes {
+    cursor: pointer;
+    text-transform: initial;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: -50px;
+    padding-top: 6px;
+    background: #e6e6e6;
+    padding-bottom: 16px;
+  }
+/*excel*/
+.excel{
+    color: #eee;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .excel li:not(:first-child ){
+    display: none;
+  }
+  
+  .excel li a {
+    text-decoration: none;
+    
+  }
+ 
+  #excel-variable{
+    cursor: pointer;
+    text-transform: initial;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: -25px;
+    padding-top: 6px;
+    background: #e6e6e6;
+    padding-bottom: 16px;
+    color: #036920;
+    list-style: none;
+  }
+   /*image-all*/
+   .image-all{
+    color: #eee;
+    width: 13%;
+    text-align: center;
+    list-style: none;
+    color: #717171;
+    padding: 0;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+  }
+  
+  .image-all li:not(:first-child ){
+    display: none;
+  }
+  
+  .image-all li a {
+    text-decoration: none;
+    
+  }
+ 
+  #image-all{
+    cursor: pointer;
+    text-transform: initial;
+    font-size: 13px;
+    padding-top: 6px;
+    background: #e6e6e6;
+    padding-bottom: 3px;
+    font-family: Anke;
+  }
+  /*rgb*/
+  .rgb{
+    color: #eee;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    color: #717171;
+    background: #fff;
+    right: 0;
+  }
+  
+  .rgb li:not(:first-child ){
+    display: none;
+  }
+  
+  .rgb li a {
+    text-decoration: none;
+    
+  }
+ 
+  #rgb{
+    cursor: pointer;
+    text-transform: initial;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    font-family: Anke;
+    margin-left: -40px;
+  }
+  ol#categoriesMenu{
+      list-style-type: none;
+      background: #fff;
+      margin-top: 8%;
+      
+  }
+  #maplayerList p a.nav-link{
+      color: #036920;
+      font-weight: 600;
+      font-size: 13px;
+      
+  }
+  #maplayerList ul ol li#group-lotes{
+      margin-left: -53px;
+  }
+  .cartografia{
+      list-style: none;
+  }
+  a.nav-link.dropdown-toggle{
+      margin-left: -50px;
+      margin-right: -9px;
+      text-align: left;
+      font-size: 13px;
+  }
+  a.nav-link.dropdown-toggle:hover{
+      background: #eee;
+  }
+.breadcrumb .dropdown-toggle {
+    display: block;
+    padding: 0rem 0rem;
+}
+
+.breadcrumb-menu a.dropdown-toggle {
+    
+    -webkit-text-decoration-skip: objects;
+}
+a#listVariablesForChangeset.nav-link{
+    background: #fff;
+    margin-left: -45px;
+}
+a#listVariablesForChangeset.nav-link:active{
+    background: #e6e6e6;
+    font-weight: bold;
+    color: #036920;
+    margin-left: -45px;
+}
+a#listVariablesForChangeset.nav-link:hover{
+    background: #e6e6e6;
+    margin-left: -45px;
+}
+
+.breadcrumb-menu {
+    margin-left: 0;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.callout h3 {
+    margin-bottom: 0px;
+}
+.cartografia-vector{
+    list-style-type: none;
+}
+
+.legend {
+    background-color: #fff;
+    border-radius: 3px;
+    bottom: 30px;
+    font: 12px/20px;
+    padding: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.legend label, .legend span {
+    display: block;
+    float: left;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}
+
+button#removeMaplayer.btn.btn-danger{
+    border-radius: 10px;
+}
+
+h6 strong span{
+    color: #036920;
+}
+h6 strong{
+    font-family: Anke;
+    color: #706e6e;
+    font-weight: normal;
+    font-size: 13px;
+}
+.dropdown-item.actionSelectVariable:hover{
+    background: #e6e6e6;
+}
+.dropdown-item.actionSelectVariable:active{
+    background: #e6e6e6;
+    color: #036920;
+}
+#groupLotes .card{
+    margin-bottom: 2px;
+}
+label.error{
+	color: red;
+   font-size: 11px;
+   width: 100%;
+}
+select#selectRemoveMaplayers.form-control{
+    border-radius: 10px;
+}
+.remove-footer{
+    margin-top: -28px;
+}
+.card-body ul.type-group{
+    list-style: none;
+    margin-left: -79px;
+}
+

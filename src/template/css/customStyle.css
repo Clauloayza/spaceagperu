@@ -1,0 +1,199 @@
+/*This is the file to change  the style over the template*/
+/*.app-header.navbar .navbar-brand{
+        background-color: #4dbd74;
+}
+
+.app-header.navbar{
+    background-color: #4dbd74;
+}*/
+header.app-header.navbar{
+    background:#e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.sidebar{
+    background-position-y: -267px;
+    background-position-x: -232px;
+}
+.sidebar .nav{
+    font-size: 11px;
+}
+nav.sidebar-nav{
+    opacity: 0.8;
+}
+button.sidebar-minimizer.brand-minimizer{
+    background: #e6e6e6;
+}
+.sidebar .nav-link{
+    padding: 0.4rem 1rem !important;
+    /*font-family: 'Helvetica Medium';*/
+    font-weight: normal;}
+    
+    .sidebar .link-perfil{
+        
+    color: #036920;
+    font-weight: bold;
+    font-family: Anke;
+    font-size: 10px;
+    }
+li.nav-item.d-md-down-none a.nav-link i.fa{
+    color: #036920;
+    font-size: 145%;
+}
+.sidebar-concept{
+    border-top: 1px solid rgb(177, 177, 177);
+    padding-top: 7px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+button.btn.btn-secondary{
+    border-radius: 10px;
+    color: #036920;
+    /*font-family: 'Helvetica Medium';*/
+}
+button.btn.btn-secondary:hover{
+    background: #BDBDBD;
+    color: #036920;
+}
+
+button.btn.btn-secondary:focus, button.btn.btn-secondary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(189, 189, 189, 0.5); }
+    button.btn.btn-secondary.disabled, button.btn.btn-secondary:disabled {
+    color: #036920;
+    background-color: #BDBDBD;
+    border-color: #BDBDBD; }
+    button.btn.btn-secondary:not(:disabled):not(.disabled):active, button.btn.btn-secondary:not(:disabled):not(.disabled).active,
+  .show > button.btn.btn-secondary.dropdown-toggle {
+    color: #036820;
+    background-color: #BDBDBD;
+    border-color: #BDBDBD; }
+    button.btn.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
+    .show > button.btn.btn-secondary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(189,189,189, 0.5); }
+
+button.btn.btn-success{
+    border-radius: 10px;
+    width: 138px;
+    background: #f0f3f5;
+    color: #036920;
+    padding: 0;
+}
+button#createProject.btn.btn-success{
+    width: 100px;
+}
+input#maplayer-file{
+    border-radius: 10px;
+    background: #036920;
+    color: #fff;
+}
+
+span#togglerSpan{
+    margin-top: 23px;
+}
+ul.dropdown-menu.images.show{
+    padding: 10px 43px;
+    color: #e6e6e6;
+    width: 192px;
+}
+a.nav-link.mlayer:hover{
+    color: #69af22;
+}
+/*.sidebar .nav-link{
+background: -webkit-gradient(linear,left top,right top,from(#003e3f),color-stop(#77a34a),to(#003e3f));
+    background: -webkit-linear-gradient(left,#003e3f,#77a34a,#003e3f);
+    background: -o-linear-gradient(left,#003e3f,#77a34a,#003e3f);
+    background: linear-gradient(90deg,#003e3f,#77a34a,#003e3f);
+}
+*/
+ol.breadcrumb{
+    background: #ccc;
+    color: #828282;
+    height: 65px;
+    padding-top: 28px;
+}
+.aside-menu-hidden .aside-menu {
+  margin-right: -300px; }
+
+.aside-menu{
+    width: 300px;
+}
+
+/*.loader {
+ border-top: 16px solid blue;
+ border-bottom: 16px solid blue;
+}*/
+
+#loading-indicator {
+  position: fixed; 
+  z-index: 9999;
+  background-color:rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#loading-indicator img{
+  margin-top: 25%;
+  width: 120px;
+}
+
+#alerts {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 9999999;
+}
+
+.alert {
+    width: 400px;
+    padding: 30px;
+}
+
+/*fa fa-icon*/
+i.fa.fa-caret-down{
+    font-size: 15px;
+    color: #69AF22;
+    font-weight: 800;
+    margin-right: 10%;
+}
+i.fa.fa-clipboard{
+    margin-left: -15px;
+    padding-right: 10px;
+}
+i.fa.fa-th-large{
+    margin-left: 28px;
+    padding-right: 12px;
+}
+i.fa.fa-object-ungroup{
+    margin-left: 28px;
+    padding-right: 12px;
+}
+
+i.fa.fa-object-group{
+    margin-left: -43px;
+    margin-right: 9%;
+}
+i.fa.fa-angle-right.angle-project{
+    position: absolute;
+    top: 18px;
+    right: -86px;
+}
+
+
+div.cardmodal{
+	border-radius: 10px;
+	padding: 25px;
+}
+div.cardmodal-group{
+	border-radius: 10px;
+	padding: 10px;
+}
+strong#userName{
+    font-size: 100%;
+}
+.organization-project{
+    border-right: 1px solid #e6e6e6;
+
+}
+.organization-projectRow{
+    padding: 20px 30px;
+
+}
+

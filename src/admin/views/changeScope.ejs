@@ -1,0 +1,31 @@
+<div class="modal fade" id="displayModalUserScope" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-success" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <div class="card">
+                            <div class="card-header">
+                                    <strong><i class="fa fa-plus"></i> CHANGE OF ROLE</strong>
+                                    <!-- <small>Form</small> -->
+                                </div>
+                        <form id="formchangeUserScope">
+                            <div class="form-group">
+                                <label for="role">ROLE</label>
+                                <select name="role" id="scopeType" class="form-control" required>
+                                    <option value="admin">Admin</option>
+                                    <option value="editor">Editor</option>
+                                    <option value="guest">Invitado</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="changeUserScopeCancel" data-dismiss="modal">CANCEL <i class="fa fa-times"></i></button>
+                    <button type="button" class="btn btn-success" id="changeUserScope">CHANGE <img src="img/logo.png" width="15%" alt=""></button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+    </div>
+</div>

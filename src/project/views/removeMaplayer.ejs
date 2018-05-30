@@ -1,0 +1,32 @@
+<div class="modal fade" id="displayModalToRemoveMaplayer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-danger" role="document">
+        <div class="modal-content">
+            
+                    <div class="card cardmodal">
+                        <div class="card-header">
+                            <strong><i class="fa fa-minus-circle"></i> DELETE LAYER</strong>
+                            <!-- <small>Form</small> -->
+                        </div>
+                        <form id="formRemoveMaplayer" enctype="multipart/form-data">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="vat">LAYER</label>
+                                    <select id="selectRemoveMaplayers" name="maplayers" class="form-control" required>
+                                        <option value="">Please select</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="errorRemoveMaplayer" class="alert alert-danger" role="alert" style="display: none;">
+                                Select a option!!
+                            </div>
+                            <div class="modal-footer remove-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL <i class="fa fa-times"></i></button>
+                                <button type="button" class="btn btn-danger" id="removeMaplayer">DELETE <i class="fa fa-minus-circle"></i></button>
+                            </div>
+                    </div>
+                
+            <!-- /.modal-content -->
+        </div>
+    </div>
+</div>

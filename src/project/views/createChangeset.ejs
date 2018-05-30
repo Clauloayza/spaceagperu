@@ -1,0 +1,43 @@
+<div class="modal fade" id="displayModalToCreateChangeset" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-success" role="document">
+        <div class="modal-content">
+           
+                    <div class="card cardmodal">
+                        <div class="card-header">
+                            <strong>CARGAR EXCEL</strong>
+                            <!-- <small>Form</small> -->
+                        </div>
+                        <form id="formCreateChangeset" enctype="multipart/form-data">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="maplayer-file">ARCHIVO EXCEL</label>
+                                    <br>
+                                    <input id="maplayer-file" type="file" name="file-input-excel">
+                                </div>
+                                <div class="form-group">
+                                    <label for="maplayerIdChangeset">CARTOGRAFÍA</label>
+                                    <select id="maplayerIdChangeset" name="maplayerIdChangeset" class="form-control" required>
+                                        <option value="">Seleccione Cartografía</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="variableIdChangeset">VARIABLE</label>
+                                    <select id="variableIdChangeset" name="variableIdChangeset" class="form-control" required>
+                                        <option value="">Seleccione variable</option>
+                                    </select>
+                                </div>
+                                <div id="errorCreateChangeset" class="alert alert-danger" role="alert" style="display: none;">
+                                        Ingrese archivo
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCELAR <i class="fa fa-times"></i></button>
+                                        <button type="button" class="btn btn-success" id="createChangeset">ACTUALIZAR <img src="img/logo.png" width="15%" alt=""></button>
+                                    </div>
+                            </div>
+                        </form>
+                    </div>
+                
+            <!-- /.modal-content -->
+        </div>
+    </div>
+</div>

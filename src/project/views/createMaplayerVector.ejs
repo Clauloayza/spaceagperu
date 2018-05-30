@@ -1,0 +1,39 @@
+<div class="modal fade" id="displayModalToCreateMaplayerVector" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-success" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>CREAR CARTOGRAFÍA</strong>
+                            <!-- <small>Form</small> -->
+                        </div>
+                        <form id="formCreateMaplayerVector" enctype="multipart/form-data">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="name-imput">NOMBRE</label>
+                                    <input id="maplayer-name" minlength=5 type="text" class="form-control" name="name" placeholder="Nombre de la Cartografía ..." required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="maplayer-description">DESCRIPCIÓN</label>
+                                    <textarea id="maplayer-description" name="description-input" rows="9" class="form-control" placeholder="Descripción de la cartografía..."></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="maplayer-file">SUBIR ARCHIVO </label>
+                                    <br>
+                                    <input id="maplayer-file" type="file" name="file-input-vector">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="createMaplayerVectorCancel" data-dismiss="modal">CANCELAR<i class="fa fa-times"></i></button>
+                    <button type="button" class="btn btn-success" id="createMaplayerVector">CREAR<img src="img/logo.png" width="15%" alt=""></button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ./src/template/views/head.ejs -%>
+
+    <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+        <%- include ./src/template/views/header.ejs -%>
+            <div class="app-body">
+                <%- include ./src/admin/views/sidebar.ejs -%>
+                    <!-- Main content -->
+                    <main class="main">
+                        <%- include ./src/admin/views/tableUsers.ejs -%>
+                            <%- include ./src/admin/views/createUser.ejs -%>
+                                <%- include ./src/admin/views/userAccess.ejs -%>
+                                    <%- include ./src/admin/views/changeScope.ejs -%>
+                    </main>
+            </div>
+            <%- include ./src/template/views/alerts.ejs -%>
+                <%- include ./src/template/views/footer.ejs -%>
+    </body>
+
+</html>

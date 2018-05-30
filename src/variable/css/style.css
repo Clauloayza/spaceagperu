@@ -1,0 +1,55 @@
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 300px;
+    border-radius: 22px;
+}
+
+div.dataTables_wrapper .btn {
+
+    padding: 0.1rem 0.2rem;
+}
+label.error{
+    color: red;
+    font-size: 11px;
+    width: 100%;
+}
+a.btn.btn-warning.enableVariable{
+    background: none;
+    border-color: transparent;
+    color: #036920;
+    font-size: 1.2rem;
+}
+a.btn.btn-warning.disableVariable{
+    background: none;
+    border-color: transparent;
+    color: #69AF22;
+    font-size: 1.2rem;
+    width: auto;
+}
+a.btn.btn-success.codeVariable{
+    background: none;
+    color: #036920;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+th, td{
+    text-align:center;
+}
+th{
+    font-family: Anke;
+    text-transform: uppercase;
+    color: #036920;
+}
+.VariablesOraganization{
+    margin-top: 3%;
+    font-family: Anke;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#actionDisplayModalToCreateVariable{
+    color: #036920;
+    font-weight: bold;
+}

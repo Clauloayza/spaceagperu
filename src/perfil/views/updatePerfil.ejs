@@ -1,0 +1,34 @@
+<div class="modal fade" id="displayModalToUpdatePerfil"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog boxRegister" role="document">
+    <div class="modal-content registerBorder">
+      <div class="formUpdateUser">
+      <form id="formupdateUser" class="container ">
+        <h1 class="align-center">UPDATE PROFILE</h1>
+        <div class="modal-body mx-3">
+          <div class="md-form mb-4 input-group" id="user">
+            <i class="fa fa-user prefix grey-text"></i><span class="pull-left repeatpass"> NAME</span>
+            <input id="name" name="user" type="text" class="form-control validate" required>
+          </div>
+          <div class="md-form mb-4 input-group" id="profile">
+            <i class="fa fa-user prefix grey-text"></i><span class="pull-left repeatpass"> ROLE</span>
+            <input id="title" name="profile" type="text" class="form-control validate" required>
+          </div>
+          <div class="md-form mb-4 input-group" id="cellphone">
+            <i class="fa fa-mobile prefix grey-text"></i><span class="pull-left repeatpass" > MOBILE</span>
+            <input id="mobile" name="cellphone" type="text" class="form-control validate" required>
+          </div>
+          <!-- alertas -->
+          <div id="errorUpdateUser" class="alert alert-danger" role="alert" style="display: none;">
+            --
+          </div>
+          <div id="okUpdateUser" class="alert alert-success" role="alert" style="display: none;">
+            --
+          </div>
+          <button class="btn modal-register" type="submit" id="update">ENTER</button>
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</div>
+  

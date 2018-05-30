@@ -1,0 +1,64 @@
+div.dataTables_wrapper div.dataTables_filter {
+	text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+	width: 300px;
+	border-radius: 22px;
+}
+
+
+div.dataTables_wrapper .btn {
+	padding: 0.1rem 0.2rem;
+}
+
+#displayModalForUserAccess .alert , #tableUsers .alert{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+button#addAccessToProject.btn.btn-sm.btn-primary{
+	width: 102px;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+	padding: 7px;
+}
+label.error{
+	color: red;
+    font-size: 11px;
+    width: 100%;
+}
+.card-table-organization{
+	margin-top: 20px;
+}
+#formCreateUser input {
+	border-radius: 10px;
+	margin: -2px;
+}
+#formCreateUser div select.form-control{
+	border-radius: 10px ;
+	margin: -2px;
+}
+#displayModalToCreateUser div div div div.modal-footer{
+	margin-top: 0;
+}
+a.btn.btn-warning.displayModalUserScope{
+	width: auto;
+	background: none;
+	border-color: transparent;
+	color: #69AF22;
+}
+a.btn.btn-info.displayModalForUserAccess{
+	width: auto;
+	background: none;
+	border-color: transparent;
+	color: yellow;
+}
+a.btn.btn-danger.diaplayUserInfoToRemove{
+	width: auto;
+	background: none;
+	border-color: transparent;
+	color: #e90303;
+}

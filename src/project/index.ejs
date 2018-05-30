@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include ./src/template/views/head.ejs -%>
+  <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+    <%- include ./src/template/views/loading.ejs -%>
+    <%- include ./src/template/views/header.ejs -%>
+    <div class="app-body">
+      <%- include ./src/project/views/sidebar.ejs -%>
+      <!-- Main content -->
+      <main class="main" id="map">
+        <!-- Breadcrumb -->
+        <ol class="breadcrumb">
+            <!--<li class="breadcrumb-item" style="margin-left: 3%" >Shp layer<span class="vs"> vs </span><a href="">Selecciona otro Lote</a></li>-->
+            <!-- Breadcrumb Menu-->
+            <li class="breadcrumb-menu d-md-down-none">
+              <div class="btn-group" role="group" aria-label="Button group">
+                <a class="btn" href="#"><i class="icon-speech"></i></a>
+                <!-- <a class="btn" href="organization.html"><i class="icon-graph"></i> &nbsp;Dashboard</a> -->
+                <!-- <a class="btn" href="#"><i class="icon-settings"></i> &nbsp;Settings</a> -->
+              </div>
+            </li>
+            <li class=" maplayer imagesRaster">
+                  <ol class="image-all">
+                      <li class="nav-title" id="image-all">
+                          IMAGENES
+                      </li>
+                      <li class="nav-item">
+                          <a href="#" data-toggle="modal"class="nav-link img">NDVI<i class="fa fa-caret-down pull-right" style="color: #036920"></i></a>
+                      </li> 
+                      <li class="nav-item">
+                          <a href="#" data-toggle="modal" class="nav-link img">Térmicas<i class="fa fa-caret-down pull-right" style="color: #036920"></i></a>
+                      </li>
+                      <ol class="rgb nav-item">
+                          <li style="display: none"></li>
+                          <li class="nav-item" id="rgb">
+                              <a href="#" data-toggle="modal" class="nav-link img">RGB<i class="fa fa-caret-down pull-right" style="color: #036920"></i></a>
+                          </li>
+                          <li class="nav-item layers">
+                              
+                          </li>
+                      </ol>
+                      <li class="nav-item">
+                          <a href="#" data-toggle="modal" class="nav-link img">Otros<i class="fa fa-caret-down pull-right" style="color: #036920"></i></a>
+                      </li>  
+                      <li class="nav-item">
+                          <a href="#" data-toggle="modal" data-target="#displayModalToCreateMaplayerRaster" class="nav-link img"><i class="fa fa-plus"></i>Subir IMG<span class="badge badge-primary"></span></a>
+                      </li> 
+                  </ol>
+              </li>
+          </ol>
+      <%- include ./src/project/views/menuCategories.ejs -%>
+      </main>
+      <%- include ./src/project/views/stats.ejs -%>
+    </div>
+    <!-- Modals -->
+    <%- include ./src/template/views/alerts.ejs -%>
+    <%- include ./src/project/views/createMaplayerVector.ejs -%>
+    <%- include ./src/project/views/createMaplayerRaster.ejs -%>
+    <%- include ./src/project/views/removeMaplayer.ejs -%>
+    <%- include ./src/project/views/createChangeset.ejs -%>
+    <%- include ./src/project/views/createGroupLotes.ejs -%>
+  </body>
+</html>

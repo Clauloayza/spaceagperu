@@ -1,0 +1,188 @@
+
+body {
+    /*;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.video{
+    background-image: url("../../template/img/sidebar.jpg");
+    background: cover;
+    height: 625px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+.logoSpaceag{
+    color: #fff;
+    width: 160px;
+    position: absolute;
+    top: 0;
+    padding: 15px 0 0 15px;
+    cursor: pointer;
+}
+.login-register{
+    color: #036920;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+form#loginregister{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.spacedatLogo img{
+    background-image: url('../logos/logo.png');
+}
+img.logo-icon{
+    background: url('../logos/logo.png');
+    z-index: 1;
+}
+.login{
+ background: transparent !important;
+ border-color: transparent !important;
+ font-family: 'IBM Plex Sans';
+}
+.login h1{
+    font-family: 'Anke', 'AnkeRegular';
+    font-size: 2rem !important;
+     
+}
+.login h5{
+    text-decoration: underline;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus{
+    box-shadow:0 0 0 0.2rem transparent !important;
+}
+.boxLogin{
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.boxLogin .boxBorder{
+    width: 400px;
+    height: 260px;
+    margin-top: 50%;
+}
+.align-items-center-login{
+    margin-top: 15%;
+}
+
+div.modal-dialog.boxRegister{
+    float: left;
+    margin-left: 3%;
+}
+
+div.modal-content.registerBorder{
+    background:#e6e6e6  !important;
+    color: #fff;
+    border: none;
+    font-family: Open Sans;
+}
+div.formCreateUser{
+    background: #e6e6e6;
+    border: 2px solid #717171;
+    padding: 3%;
+    padding-left: 6%;
+    color: #717171;
+    margin-top: -12px;
+    margin-left: -25px;
+    width: 130%;
+}
+h1.align-center{
+    text-align: center;
+    margin: 15px 0 25px;
+    font-family: 'Anke', 'AnkeRegular';
+    color: #036920;
+}
+span.pull-left{
+    padding-left: 3%;
+}
+button#signup.btn.modal-register{
+    border-radius: 5px;
+    margin-bottom: 5%;
+    color: #036920;
+    font-weight: bold;
+    width: 100%;
+    font-size: 19px;
+}
+button.registerUser{
+    border-radius: 5px;
+    color: #fff;
+    background: #036920;
+    width: 100%;
+    padding: 10px;
+}
+button.registerUser:hover{
+    border-radius: 5px;
+    color: #fff;
+    background: #036920;
+    
+}
+input.form-control.validate{
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*login*/
+.card-body h1{
+    font-size: 2rem !important;
+    font-family: 'Anke', 'AnkeRegular';
+}
+
+.input-group > .form-control{
+    width: 100%;
+}
+
+ label.error{
+     color: red;
+    font-size: 11px;
+    width: 100%;
+ }
+ 
+div.card-body{
+    background:#e6e6e6;
+    color: #fff;
+}
+h1.loginregister-modal{
+    font-size: 30px !important;
+    font-family: 'Anke';
+    margin-top: -15px;
+    color: #036920;
+    font-weight: 500;
+}
+.login-modal{
+    border-radius: 100%;
+    width: 319px;
+    height: 319px;
+    display: block;
+    margin: auto;
+    padding: 45px;
+    color: #fff;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    border-color: 2px solid #fff;
+    background: #036920;
+}
+button.btn.btn-link.px-0{
+    float: right;
+    font-size: 11px;
+    display: block;
+    color: #FFF;
+}
+.mantra img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 15% 5% 0;
+    width: 250px;
+}

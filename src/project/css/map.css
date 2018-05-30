@@ -1,0 +1,11 @@
+.mapboxgl-ctrl-top-left {
+    top: 60px;
+    left: 0;
+}
+
+.mapboxgl-popup-content{
+    color: #706e6e;
+    background: #e6e6e6;
+    border-radius: none !important;
+    padding: 4px 8px 7px !important;
+}

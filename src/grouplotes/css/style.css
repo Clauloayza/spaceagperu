@@ -1,0 +1,94 @@
+.mapboxgl-ctrl-top-left {
+    top: 60px;
+    left: 0;
+}
+
+div.mapboxgl-popup.mapboxgl-popup-anchor-bottom {
+    opacity: 0.7;
+}
+a#btncreateGroup.nav-link{
+    margin-left: 42px;
+}
+a#btncreateGroup.nav-link:hover{
+    color: #69af22;
+}
+a#btncreateGroup.nav-link:active{
+    color: #036920;
+}
+li.nav-item.list-agruparmap{
+    padding-left: 75px;
+}
+li.nav-item.list-agruparmap:active{
+    color: #036920;
+    background: #e6e6e6 !important;
+}
+/*--------------cartografia*/
+.cartografia-grupos {
+    color: #eee;
+    width: 100%;
+    text-align: left;
+    background: #fff;
+  }
+  ol.cartografia-grupos{
+      padding-left: 0;
+      margin-top: -6px;
+      margin-bottom: -6px;
+  }
+  li#cartografia-grupos.nav-title.layers{
+      background: #e6e6e6;
+      padding: 14px 0;
+  }
+  .cartografia-grupos li:not(:first-child ){
+    display: none;
+    padding-top: 7px;
+  }
+  
+  .cartografia-grupos li a {
+    text-decoration: none;
+    
+  }
+ 
+  #cartografia-grupos{
+    cursor: pointer;
+    text-transform: initial;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 6px;
+  }
+/*--------------cartografia*/
+
+ul#maplayerList.nav{
+    margin-top: -9px;
+}
+
+#maplayerList .active {
+    background: #e6e6e6;
+    color: #036920;
+}
+
+.breadcrumb {
+    height: 50px;
+    padding: 2px;
+    margin: 0px;
+}
+.barra{
+    background: #828282;
+    height: 50px;
+    width: 20px;
+}
+.card {
+    margin-bottom: 1px;
+}
+
+label.error {
+    color: red;
+    font-size: 11px;
+    width: 100%;
+}
+.sidebar .nav-link{
+    padding: 0.6rem 1rem !important;
+}
+body{
+    color:#f8cb00 ;
+}
+

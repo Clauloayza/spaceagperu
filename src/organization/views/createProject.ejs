@@ -1,0 +1,51 @@
+<div class="modal fade" id="displayModalToCreateProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-success" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>NUEVO PROYECTO</strong>
+                            <!-- <small>Form</small> -->
+                        </div>
+                        <form id="formCreateProject">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="company">NOMBRE</label>
+                                    <input minlength=5 type="text" class="form-control" name="name" placeholder="Nombre de Proyecto" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="vat">PAÍS</label>
+                                    <select name="country" class="form-control" id="country" required>
+                                        <option value="">seleccione...</option>
+                                        <option value="Perú">Perú</option>
+                                        <option value="México">México</option>
+                                        <option value="Argentina">Argentina</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="street">CIUDAD/ESTADO</label>
+                                    <select name="city" class="form-control" id="location" required>
+                                        <option value="">Seleccione...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div id="errorCreateProject" class="alert alert-danger" role="alert" style="display: none;">
+                                Inserts all the fields
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL <i class="fa fa-times"></i></button>
+                                <button type="button" class="btn btn-success" id="createProject">CREATE <img src="img/logo.png" width="15%" alt=""></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>

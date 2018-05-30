@@ -1,0 +1,51 @@
+<div class="modal fade" id="displayModalToCreateVariable" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-success" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong><i class="fa fa-plus"></i> CREATE VARIABLES</strong>
+                            <!-- <small>Form</small> -->
+                        </div>
+                        <form id="formCreateVariable">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="categoryId">CATEGORY</label>
+                                    <select id="categoryId" name="categoryId" class="form-control" required>
+                                        <option value="">Please select</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">NAME</label>
+                                    <input minlength=3 id="name" type="text" class="form-control" name="name" placeholder="Insert variable name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="dataType">TYPE OF VARIABLE</label>
+                                    <select name="dataType" class="form-control" required>
+                                        <option value="">Please select</option>
+                                        <option value="DECIMAL">NUMERICO</option>
+                                        <!-- <option value="INTEGER">INTEGER</option> -->
+                                        <option value="STRING">STRING</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="errorCreateVariable" class="alert alert-danger" role="alert" style="display: none;">
+            </div>
+            <div id="okCreateVariable" class="alert alert-success" role="alert" style="display: none;">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="createVariableCancelar" data-dismiss="modal">CANCEL<i class="fa fa-times"></i></button>
+                <button type="button" class="btn btn-success" id="createVariable">CREATE  <img src="img/logo.png" width="15%" alt=""></button>
+                <button type="button" class="btn btn-primary" id="createVariableclose" data-dismiss="modal" style="display: none;">CLOSE</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>

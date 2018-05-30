@@ -1,0 +1,31 @@
+<div class="modal fade" id="modalLoginForm"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content login-modal justiny-content-center">
+      <form action="" id="loginregister">
+          <h1 class="loginregister-modal">LOG IN<img src="img/logo.png" style="width:10%" alt=""></h1>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span>E-MAIL</span>
+            </div>
+            <input id="email" type="text" class="form-control validate" name="email">
+          </div>
+          <div class="input-group mb-4">
+            <div class="input-group-prepend">
+              <span>PASSWORD</span>
+            </div>
+            <input id="password" type="password" class="form-control validate" name="password">
+            <!--<button type="button" class="btn btn-link px-0 pull-right">Forgot password</button>-->
+          </div>
+          <div id="unauthorized" class="alert alert-danger" role="alert" style="display: none;">
+            Invalid password or email
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <button id="login" type="button" class="btn btn-success px-4 registerUser">ENTER</button>
+            </div>
+            
+          </div>
+        </form>
+    </div>
+  </div>
+</div>

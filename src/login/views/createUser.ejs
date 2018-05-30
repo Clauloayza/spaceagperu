@@ -1,0 +1,50 @@
+<style>
+  #modalRegisterForm{
+      padding-left:58px;
+  }
+</style>
+<div class="modal fade" id="modalRegisterForm" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog boxRegister" role="document">
+    <div class="modal-content registerBorder">
+      <div class="formCreateUser">
+      <form id="formCreateUser" class="container ">
+        <h1 class="align-center">REGISTER <img src="img/logo.png" class="logo-icon" alt="" style="width:7%"></h1>
+        <div class="modal-body mx-3">
+          <div class="md-form mb-4 input-group" id="user">
+            <i class="fa fa-user prefix grey-text"></i><span class="pull-left repeatpass"> NAME</span>
+            <input id="name" name="name" type="text" class="form-control validate" >
+          </div>
+          <div class="md-form mb-4 input-group" id="email">
+            <i class="fa fa-at prefix grey-text"></i><span class="pull-left repeatpass"> EMAIL</span>
+            <input id="gmail" name="email"  class="form-control validate">
+          </div>
+          <div class="md-form mb-4 input-group" id="profile">
+            <i class="fa fa-user prefix grey-text"></i><span class="pull-left repeatpass"> ROLE</span>
+            <input id="title" name="title" type="text" class="form-control validate" >
+          </div>
+          <div class="md-form mb-4 input-group" id="cellphone">
+            <i class="fa fa-mobile prefix grey-text"></i><span class="pull-left repeatpass" > PHONE</span>
+            <input id="mobile" name="cellphone" type="text" class="form-control validate">
+          </div>
+          <div class="md-form mb-4 input-group" id="passwd">
+            <i class="fa fa-lock prefix grey-text"></i><span class="pull-left repeatpass" > PASSWORD</span>
+            <input id="passwordSignup"  name = "password" type="password" class="form-control validate" >
+          </div>
+          <div class="md-form mb-4 input-group" id="newpasswd">
+            <i class="fa fa-lock prefix grey-text"></i><span class="pull-left repeatpass" > CONFIRM PASSWORD</span>
+            <input id="confirmpassw" name = "confirm_password" type="password" class="form-control validate" >
+          </div>
+          <!-- alertas -->
+          <div id="errorCreateUser" class="alert alert-danger" role="alert" style="display: none;">
+            --
+          </div>
+          <div id="okCreateUser" class="alert alert-success" role="alert" style="display: none;">
+            --
+          </div>
+          <button class="btn modal-register" type="submit" id="signup">ENTER</button>
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</div>

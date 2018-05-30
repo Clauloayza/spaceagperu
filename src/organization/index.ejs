@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include ./src/template/views/head.ejs -%>
+  <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+    <%- include ./src/template/views/header.ejs -%>
+    <div class="app-body">
+      <%- include ./src/organization/views/sidebar.ejs -%>
+      <!-- Main content -->
+      <main class="main">
+        <!-- Breadcrumb -->
+        <ol class="breadcrumb">
+          <!--<li class="breadcrumb-item" style="margin-left: 3%">Lote 03<span class="vs"> vs </span><a href="">Selecciona otro Lote</a></li>-->
+          <!-- Breadcrumb Menu-->
+          <li class="breadcrumb-menu d-md-down-none">
+            <div class="btn-group" role="group" aria-label="Button group">
+              <a class="btn" href="#"><i class="icon-speech"></i></a>
+              <!-- <a class="btn" href="organization.html"><i class="icon-graph"></i> &nbsp;Dashboard</a> -->
+              <!-- <a class="btn" href="#"><i class="icon-settings"></i> &nbsp;Settings</a> -->
+            </div>
+          </li>
+        </ol>
+        <div class="container-fluid">
+          <div class="animated fadeIn">
+            <%- include ./src/organization/views/listProjects.ejs -%>
+          </div>
+        </div>
+        <!-- /.conainer-fluid -->
+      </main>
+      
+    <!-- Modals -->
+          <%- include ./src/organization/views/createOrganization.ejs -%>
+      <%- include ./src/organization/views/createProject.ejs -%>
+      <%- include ./src/organization/views/editProject.ejs -%>
+    <div class="loginFooter"></div>
+    
+    </div>
+    <img class="logoagua" src="img/logo.png" width="50px"  alt="">
+    <%- include ./src/template/views/footer.ejs -%>
+  </body>
+</html>

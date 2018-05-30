@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ./src/template/views/head.ejs -%>
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.0/mapbox-gl-draw.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.0/mapbox-gl-draw.css' type='text/css' />
+
+    <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+        <%- include ./src/template/views/loading.ejs -%>
+            <%- include ./src/template/views/header.ejs -%>
+                <div class="app-body">
+                    <%- include ./src/grouplotes/view/sidebar.ejs -%>
+                        <!-- Main content -->
+                        <main class="main" id="map">
+                            <!-- Breadcrumb -->
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">&emsp;</li>
+                                Seleccionar varios lotes presionando shift
+                            </ol>
+                        </main>
+                        <%- include ./src/grouplotes/view/rightbar.ejs -%>
+                </div>
+                <%- include ./src/template/views/alerts.ejs -%>
+                    <%- include ./src/grouplotes/view/formCreateGroup.ejs -%>
+    </body>
+
+</html>

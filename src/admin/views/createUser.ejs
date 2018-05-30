@@ -1,0 +1,56 @@
+<div class="modal fade" id="displayModalToCreateUser" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-success" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong><i class="fa fa-plus"></i> CREATE NEW USER</strong>
+                            <!-- <small>Form</small> -->
+                        </div>
+                        <form id="formCreateUser">
+                            <div class="form-group">
+                                <label for="name">NAME</label>
+                                <input type="text" class="form-control" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">EMAIL</label>
+                                <input type="text" class="form-control" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="role">ROLE</label>
+                                <select name="role" class="form-control" required>
+                                    <option value="admin">Admin</option>
+                                    <option value="editor">Editor</option>
+                                    <option value="guest">Invitado</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="title">TITLE</label>
+                                <input type="text" class="form-control" name="title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">PHONNE</label>
+                                <input type="text" class="form-control" name="telephone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mobile">MOBILE</label>
+                                <input type="text" class="form-control" name="mobile" required >
+                            </div>
+                            <div class="form-group">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" class="form-control" name="password" required>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="createUserCancel" data-dismiss="modal">CANCEL <i class="fa fa-times"></i></button>
+                    <button type="button" class="btn btn-success" id="createUser">CREATE <img src="img/logo.png" width="15%" alt=""></button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+    </div>
+</div>

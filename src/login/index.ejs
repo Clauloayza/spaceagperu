@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<%- include ./src/template/views/head.ejs -%>
+<style>
+    body{
+        background: #e6e6e6;
+    }
+</style>
+    <body>
+        <div class="app flex-row align-items-center background">
+            <img class="logoSpaceag" src="img/logoSpaceag.png" alt="">
+            <button href="" type="button" class="btn btn-success active  login" data-toggle="modal" data-target="#modalRegisterForm">
+                <h5 class="login-register">REGISTER</h5>
+            </button>
+            <div class="container">
+                
+                <div class="row">
+                    <div class="card-group col-md-6 col-lg-6 col-xs-6">
+                        <div class="text-white boxLogin ">
+                            <div class="text-center boxBorder">
+                                <div class="align-items-center-login">
+                                    <form action="" id="loginregister">
+                                        <h1 class="loginregister-modal">LOG IN</h1>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                            <!--<span>E-MAIL</span>-->
+                                            </div>
+                                            <input id="email" type="text" class="form-control validate" name="email" placeholder="Email">
+                                        </div>
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                            <!--<span>PASSWORD</span>-->
+                                            </div>
+                                            <input id="password" type="password" class="form-control validate" name="password" placeholder="Contraseña">
+                                            <!--<button type="button" class="btn btn-link px-0 pull-right">Forgot password</button>-->
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-12">
+                                            <button id="login" type="button" class="btn btn-success px-4 registerUser">ENTRAR</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 video">
+                    </div>
+                </div>
+                <div id="unauthorized" class="alert alert-danger login-danger" role="alert" style="display: none;">
+                    Password inválido
+                </div>
+            </div>
+            <div class="mantra">
+                <img src="img/frase.png" alt="" >
+            </div>
+        </div>
+        <%- include ./src/login/views/registerUser.ejs -%>
+        <%- include ./src/login/views/createUser.ejs -%>
+    </body>
+</html>
+
+

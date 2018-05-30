@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ./src/template/views/head.ejs -%>
+    <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+        <%- include ./src/template/views/header.ejs -%>
+        <div class="app-body">
+            <%- include ./src/variable/views/sidebar.ejs -%>
+            <main class="main">
+             <%- include ./src/variable/views/createVariable.ejs -%>
+             <%- include ./src/variable/views/tableVariables.ejs -%>
+            <%- include ./src/variable/views/showCodeUpdate.ejs -%>
+            </main>
+        </div>
+        <%- include ./src/template/views/alerts.ejs -%>
+        <%- include ./src/template/views/footer.ejs -%>
+    </body>
+</html>
